@@ -13,6 +13,8 @@
 		9D809CC128FD5D3000B2BD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D809CBF28FD5D3000B2BD6F /* Main.storyboard */; };
 		9D809CC328FD5D3100B2BD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D809CC228FD5D3100B2BD6F /* Assets.xcassets */; };
 		9D809CC628FD5D3100B2BD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D809CC428FD5D3100B2BD6F /* LaunchScreen.storyboard */; };
+		9DF849CB28FF11D30028EB6E /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF849CA28FF11D30028EB6E /* AuthController.swift */; };
+		9DF849CD28FF18330028EB6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF849CC28FF18330028EB6E /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9D809CC228FD5D3100B2BD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D809CC528FD5D3100B2BD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D809CC728FD5D3100B2BD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF849CA28FF11D30028EB6E /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		9DF849CC28FF18330028EB6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9D809CB928FD5D3000B2BD6F /* AppDelegate.swift */,
 				9D809CBB28FD5D3000B2BD6F /* SceneDelegate.swift */,
 				9D809CBD28FD5D3000B2BD6F /* ViewController.swift */,
+				9DF849CC28FF18330028EB6E /* ContentView.swift */,
+				9DF849CA28FF11D30028EB6E /* AuthController.swift */,
 				9D809CBF28FD5D3000B2BD6F /* Main.storyboard */,
 				9D809CC228FD5D3100B2BD6F /* Assets.xcassets */,
 				9D809CC428FD5D3100B2BD6F /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D809CBE28FD5D3000B2BD6F /* ViewController.swift in Sources */,
+				9DF849CD28FF18330028EB6E /* ContentView.swift in Sources */,
+				9DF849CB28FF11D30028EB6E /* AuthController.swift in Sources */,
 				9D809CBA28FD5D3000B2BD6F /* AppDelegate.swift in Sources */,
 				9D809CBC28FD5D3000B2BD6F /* SceneDelegate.swift in Sources */,
 			);
@@ -290,6 +298,8 @@
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BiometricAuth/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "we need this";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +328,8 @@
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BiometricAuth/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "we need this";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
