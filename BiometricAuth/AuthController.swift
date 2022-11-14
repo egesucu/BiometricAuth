@@ -11,7 +11,6 @@ import LocalAuthentication
 
 class AuthController : ObservableObject{
     
-    fileprivate var isBiometricAvailable = false
     @Published var biometricType : LABiometryType = .none
     fileprivate var context : LAContext?
     

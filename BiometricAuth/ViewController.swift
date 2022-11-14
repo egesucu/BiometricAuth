@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import LocalAuthentication
 import SwiftUI
 
 class ViewController: UIViewController {
